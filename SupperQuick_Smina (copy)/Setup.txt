@@ -1,0 +1,18 @@
+Parallel Smina: 
+Source: https://jriccil.github.io/Taller_Simulacion_Molecular/virtual_screening_vina.html
+	https://github.com/tubiana/screening_protocol/tree/main
+
+Install:
+- cd prject_Smina
+- wget https://sourceforge.net/projects/smina/files/smina.static/download -O smina.static
+- chmod +x smina.static
+
+==========================
+Running 
+
+mkdir -p ligands
+mv ./*.sdf ./ligands/
+
+(normal prepare ligand)
+
+run parallel.ipynb
